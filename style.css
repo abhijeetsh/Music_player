@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    /* border: 2px solid green; */
+    height: 700px;
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 450px;
+    background :linear-gradient(to left, rgba(170, 157, 211, 0), rgb(224, 164, 184));
+    border-radius: 10px;
+}
+.icon{
+    /* border: 2px solid blue; */
+    height: 80px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+.icon div {
+    /* background-color: lightpink; */
+    height: 70px;
+    width: 70px;
+    border-radius: 50%; 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background :linear-gradient(to left, rgba(196, 136, 136, 0), rgb(173, 210, 222));
+    cursor: pointer;
+
+}
+
+.images{
+    /* border: 2px solid pink; */
+    height: 530px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image{
+    border: 12px solid rgb(235, 111, 111);
+    border-radius: 50%;
+}
+
+#progress_bar{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.margin{
+    margin: 5px 0px;
+}
+
+.buttons{
+    /* border: 2px solid red; */
+    height: 90px;
+    width: 500px;
+    display: flex;
+   justify-content: space-evenly;
+    align-items: center;
+}
+.buttons div{
+    background-color: lightpink;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%; 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}

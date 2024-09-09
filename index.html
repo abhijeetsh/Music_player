@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome link -->
+    <script src="https://kit.fontawesome.com/8b3e56f50b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- main section of music player -->
+    <div class="main">
+        <!-- section for back button and menus -->
+        <div class="icon">
+            <div class="rightangle">
+                <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="bar">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            
+            
+        </div>
+        <!-- secton for images and song name -->
+        <div class="images">
+            <img src="images/WhatsApp Image 2024-01-07 at 18.40.11.jpeg" class="image margin">
+            <h3 class="heading margin">Despacito</h3>
+            <p class="desc margin">Luis Fonsi Ft. Puerto Rican</p>
+
+            <!-- adding audio  -->
+            <audio >
+                <source  id = "Song" src="music/Luis Fonsi, Daddy Yankee - Despacito (Audio) ft. Justin Bieber.mp3" type="audio/ogg">
+            </audio>
+
+            <input id="progress_bar" type="range" value = "0">
+            
+        </div>
+        <!-- section for buttons -->
+        <div class="buttons">
+            <div><i class="fa-solid fa-backward"></i>
+            </div>
+
+            <div><i class="fa-solid fa-pause"></i>
+            </div>
+            
+            <div><i class="fa-solid fa-forward"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
